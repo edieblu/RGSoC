@@ -1,0 +1,30 @@
+{
+  "name": "resttodolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edieblu/RESTful-todoList.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "todoList"
+  ],
+  "author": "edieBlu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edieblu/RESTful-todoList/issues"
+  },
+  "homepage": "https://github.com/edieblu/RESTful-todoList#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.1",
+    "nodemon": "^1.17.5"
+  }
+}
